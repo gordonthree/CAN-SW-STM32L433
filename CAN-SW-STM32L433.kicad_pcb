@@ -333,7 +333,7 @@
 		(at 121 106 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "C5V-2"
+		(property "Reference" "C5V0"
 			(at 4.5 0 0)
 			(layer "F.SilkS")
 			(uuid "6f923226-b784-48b2-82d4-cb36c60dce10")
@@ -3301,7 +3301,7 @@
 				)
 			)
 		)
-		(property "Value" "H CAN L"
+		(property "Value" "H GND L"
 			(at 5 5.72 0)
 			(layer "F.SilkS")
 			(uuid "177d2aaf-7cd5-41ad-b137-a5433235206f")
@@ -4482,7 +4482,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3V3"
-			(at -3 0.2 90)
+			(at -0.75 1.75 180)
 			(layer "F.SilkS")
 			(uuid "0d03dc15-3f59-400b-9cd0-4e0dd33aa7ab")
 			(effects
@@ -5177,7 +5177,7 @@
 			(at 0.25 -6.25 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6c719f95-401f-40de-8842-ab0405ab1295")
+			(uuid "7f65285d-3c6b-489c-b7e3-e11e7ac8fbc5")
 			(effects
 				(font
 					(size 1 1)
@@ -5185,10 +5185,10 @@
 				)
 			)
 		)
-		(property "Value" "+12V CENTER +"
-			(at 2 -6.5 180)
+		(property "Value" "CENTER +12V"
+			(at 5.5 6 180)
 			(layer "F.SilkS")
-			(uuid "f6274c57-7d26-4363-890e-536b4f25ef6c")
+			(uuid "6cfefac4-fa87-44e6-b441-c3bfe9178936")
 			(effects
 				(font
 					(size 1 1)
@@ -5200,7 +5200,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ad914ae-0814-40e0-aaaa-6e7dd5ab8b9b")
+			(uuid "75052769-094f-47c8-960e-9f3663e2d9c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5212,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ccbe905-6f4e-4639-9048-7eec64ca1435")
+			(uuid "9d80e415-cc18-4ee2-b669-9e875fc0b0a0")
 			(effects
 				(font
 					(size 1.27 1.27)

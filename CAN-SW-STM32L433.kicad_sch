@@ -7172,7 +7172,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "H CAN L"
+		(property "Value" "H GND L"
 			(at 245.11 102.87 0)
 			(effects
 				(font
@@ -8118,7 +8118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+12V CENTER +"
+		(property "Value" "CENTER +12V"
 			(at 81.28 31.75 0)
 			(effects
 				(font
@@ -9755,7 +9755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97cb0e75-70f4-4a35-a827-e146325fe8f2")
-		(property "Reference" "C5V-2"
+		(property "Reference" "C5V0"
 			(at 30.48 77.4762 0)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 		(instances
 			(project ""
 				(path "/807782eb-8307-4922-8e5a-50da44718f8e"
-					(reference "C5V-2")
+					(reference "C5V0")
 					(unit 1)
 				)
 			)
