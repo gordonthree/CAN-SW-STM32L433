@@ -7172,7 +7172,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "CANBUS"
+		(property "Value" "H CAN L"
 			(at 245.11 102.87 0)
 			(effects
 				(font
@@ -7254,7 +7254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 22.86 0)
 			(effects
 				(font
@@ -7942,7 +7942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a76480c-80ce-4e5b-8b25-218267f014ed")
-		(property "Reference" "SWLINK1"
+		(property "Reference" "J4"
 			(at 232.41 67.3099 0)
 			(effects
 				(font
@@ -7951,7 +7951,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
+		(property "Value" "SWLINK"
 			(at 232.41 69.8499 0)
 			(effects
 				(font
@@ -8021,7 +8021,7 @@
 		(instances
 			(project ""
 				(path "/807782eb-8307-4922-8e5a-50da44718f8e"
-					(reference "SWLINK1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10030,7 +10030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07f59de-6df6-47a8-b162-7dd9d35b7617")
-		(property "Reference" "UART1"
+		(property "Reference" "J3"
 			(at 246.38 133.35 0)
 			(effects
 				(font
@@ -10038,13 +10038,12 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "UART1"
 			(at 246.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
@@ -10089,7 +10088,7 @@
 		(instances
 			(project ""
 				(path "/807782eb-8307-4922-8e5a-50da44718f8e"
-					(reference "UART1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
