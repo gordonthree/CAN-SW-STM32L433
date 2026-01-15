@@ -8109,7 +8109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f137248-612c-4240-9d2c-5adfdd79c969")
-		(property "Reference" "CON12V1"
+		(property "Reference" "J5"
 			(at 83.82 25.3999 0)
 			(effects
 				(font
@@ -8118,7 +8118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CENTER+"
+		(property "Value" "+12V CENTER +"
 			(at 81.28 31.75 0)
 			(effects
 				(font
@@ -8166,7 +8166,7 @@
 		(instances
 			(project "CAN-SW-STM32L433"
 				(path "/807782eb-8307-4922-8e5a-50da44718f8e"
-					(reference "CON12V1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
