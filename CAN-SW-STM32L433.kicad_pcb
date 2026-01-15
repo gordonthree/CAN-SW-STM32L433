@@ -1418,9 +1418,8 @@
 		(descr "Through hole angled pin header, 2x05, 2.54mm pitch, 6mm pin length, double rows")
 		(tags "Through hole angled pin header THT 2x05 2.54mm double row")
 		(property "Reference" "J4"
-			(at 2.3 12.64 90)
+			(at -2.5 11.04 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "6a880ce5-490b-4d61-90d7-c5cb5db912c1")
 			(effects
 				(font
@@ -1430,7 +1429,7 @@
 			)
 		)
 		(property "Value" "SWLINK"
-			(at -2.5 9.44 0)
+			(at -2.5 5.29 0)
 			(layer "F.SilkS")
 			(uuid "82bcbea4-b3ba-4f49-a19d-696bc6bb45f4")
 			(effects
@@ -3292,7 +3291,6 @@
 		(property "Reference" "J1"
 			(at 5 -6.32 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "fe846094-a3c6-4d78-a4e0-e89ab8ef26da")
 			(effects
 				(font
@@ -5176,7 +5174,6 @@
 		(property "Reference" "J5"
 			(at 0.25 -6.25 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "7f65285d-3c6b-489c-b7e3-e11e7ac8fbc5")
 			(effects
 				(font
@@ -5708,9 +5705,8 @@
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J3"
-			(at -2.7 0.28 0)
+			(at -2.5 6.33 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "2ad2a271-5e31-4d27-b7e3-e6c0136bba75")
 			(effects
 				(font
@@ -5720,8 +5716,8 @@
 			)
 		)
 		(property "Value" "UART1"
-			(at -2.6 0.48 180)
-			(layer "F.Fab")
+			(at -2.6 0.48 0)
+			(layer "F.SilkS")
 			(uuid "1954de88-1538-4042-a678-cce1667f97c4")
 			(effects
 				(font
@@ -6377,9 +6373,9 @@
 		(descr "LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
-			(at 6.2 -5.375 0)
+			(at 6.25 -5.575 0)
 			(layer "F.SilkS")
-			(uuid "d69314d0-d9e8-4d20-b8ec-9c790285716e")
+			(uuid "62e2f6cd-1fa1-405f-93a0-3e53d4aba7a0")
 			(effects
 				(font
 					(size 1 1)
@@ -6388,10 +6384,9 @@
 			)
 		)
 		(property "Value" "STM32L433RCT3"
-			(at 0 7.4 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4b6c31e3-dc2b-4f35-9936-c0f38c8d0765")
+			(at 13.75 -5.575 0)
+			(layer "F.SilkS")
+			(uuid "fe819fd9-f36a-4d74-8d4c-c38cd9bb2734")
 			(effects
 				(font
 					(size 1 1)
@@ -6403,7 +6398,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0671ad33-8ab0-45ed-9105-0108dc4b3f99")
+			(uuid "ffc66cdf-c2a0-406d-96cb-6922c3ba46f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6410,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a92e5af-322d-4f07-8aa6-cf6c26cf2607")
+			(uuid "d46c7756-48d8-4495-9d78-960ab35eac54")
 			(effects
 				(font
 					(size 1.27 1.27)
