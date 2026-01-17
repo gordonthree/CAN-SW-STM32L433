@@ -8,5 +8,10 @@ Compact controller board intended to interface with as many as four smart switch
 * 3-pin terminal block for CANBUS connection with drain
 * Pin-header connections for Profet Smart Switch modules
 * Analog inputs for voltage and current sensing
+* Jumper selected CAN terminator resistor
+* LED indicator for 3.3v power
+* LED indicator for status, controlled by the micro
+* Bidirectional transient voltage protection diode for harsh environments
+* Debugging header for UART1 serial port as well as SWLINK programming 
 
   
